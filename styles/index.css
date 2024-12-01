@@ -160,7 +160,7 @@ footer a:hover {
 }
 
 /* Desktop */
-@media (min-width: 1440px) {
+@media (min-width: 768px) {
   .card {
     max-width: 600px;
     flex-direction: row;
