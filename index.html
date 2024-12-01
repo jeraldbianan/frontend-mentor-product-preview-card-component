@@ -40,11 +40,17 @@
     <main class="container">
       <article class="card">
         <figure>
-          <img
-            src="images/image-product-desktop.jpg"
-            alt="Gabrielle Essence Eau De Parfum Product Image"
-            class="product-image"
-          />
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="images/image-product-desktop.jpg"
+            />
+            <img
+              src="images/image-product-mobile.jpg"
+              alt="Gabrielle Essence Eau De Parfum Product Image"
+              class="product-image"
+            />
+          </picture>
         </figure>
 
         <div class="product-info">
